@@ -10,3 +10,10 @@ The bot will:
 - Export the scraped chat data to another server.
 - Store all exported information in a separate server location.
 - Delete the old channels once their content has been scraped and archived.
+
+## Features
+Created custom slash commands to identify older conversation records, package them into structured archive files, and transfer them into a designated long-term storage location.
+
+- `/ping`: Is a test command that returns a response called "pong".
+- `/storeArchive`- scrapes the chats inside archive category and exports the information to the hosts private server.
+- `/deleteArchive` - Deletes all chats inside archive category.
